@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna College</title>
+    <link rel="stylesheet" href="apna-college.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><span>Apna</span> College</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="fa fa-search" type="submit"></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="home" class="mt-4 section">
+            <h1>Welcome to Apna College</h1>
+            <p>Apna College is your one-stop destination for comprehensive courses and college reviews. Explore our offerings below.</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/course1.jpg" class="d-block w-100" alt="Course 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/course2.jpg" class="d-block w-100" alt="Course 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/course3.jpg" class="d-block w-100" alt="Course 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="courses" class="mt-4 section">
+            <h2>Courses</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/course1.jpg" class="card-img-top" alt="Web Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Learn the fundamentals of web development with HTML, CSS, and JavaScript. Build responsive websites and web applications.</p>
+                            <a href="course-detail.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/course2.jpg" class="card-img-top" alt="Data Science">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Science</h5>
+                            <p class="card-text">Master data science with Python. Learn about data analysis, visualization, machine learning, and more.</p>
+                            <a href="course-detail.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/course3.jpg" class="card-img-top" alt="Machine Learning">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Learning</h5>
+                            <p class="card-text">Dive into machine learning. Understand algorithms, build models, and apply them to real-world problems.</p>
+                            <a href="course-detail.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/course4.jpg" class="card-img-top" alt="Cyber Security">
+                        <div class="card-body">
+                            <h5 class="card-title">Cyber Security</h5>
+                            <p class="card-text">Learn how to protect systems and networks from cyber threats. Understand the principles of security and apply them.</p>
+                            <a href="course-detail.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/course5.jpg" class="card-img-top" alt="Digital Marketing">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">Understand digital marketing strategies. Learn SEO, SEM, content marketing, and more to grow your business online.</p>
+                            <a href="course-detail.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/course6.jpg" class="card-img-top" alt="Blockchain">
+                        <div class="card-body">
+                            <h5 class="card-title">Blockchain</h5>
+                            <p class="card-text">Discover the world of blockchain technology. Learn how blockchain works and its applications in various industries.</p>
+                            <a href="course-detail.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="college-review" class="mt-4 section">
+            <h2>College Review</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <iframe width="100%" height="215" src="https://www.youtube.com/embed/1VfqlKtVF7U" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4">
+                    <iframe width="100%" height="215" src="https://www.youtube.com/embed/zGJ5BlbKfLM" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4">
+                    <iframe width="100%" height="215" src="https://www.youtube.com/embed/j0biLzzJ2XQ?si=L7hkE2aFuYlsZU4z" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="study-materials" class="mt-4 section">
+            <h2>Study Materials</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/material1.jpg" class="card-img-top" alt="HTML Tutorial">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML Tutorial</h5>
+                            <p class="card-text">Download our comprehensive HTML tutorial to learn the basics of web development.</p>
+                            <a target="_blank" href="https://www.tutorialspoint.com/html/html_tutorial.pdf" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/material2.jpg" class="card-img-top" alt="Stanford HTML PDF">
+                        <div class="card-body">
+                            <h5 class="card-title">Stanford HTML PDF</h5>
+                            <p class="card-text">Access Stanford's HTML lecture notes for a deeper understanding of web development.</p>
+                            <a target="_blank" href="https://web.stanford.edu/class/cs142/lectures/HTML.pdf" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/material3.jpg" class="card-img-top" alt="CSS Guide">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS Guide</h5>
+                            <p class="card-text">Download our complete CSS guide to learn how to style your web pages effectively.</p>
+                            <a target="_blank" href="https://example.com/css-guide.pdf" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/material4.jpg" class="card-img-top" alt="JavaScript Guide">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Guide</h5>
+                            <p class="card-text">Learn JavaScript with our detailed guide. Understand syntax, functions, and more.</p>
+                            <a target="_blank" href="https://example.com/javascript-guide.pdf" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/material5.jpg" class="card-img-top" alt="Python Programming">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Programming</h5>
+                            <p class="card-text">Download our Python programming guide to start coding in Python today.</p>
+                            <a target="_blank" href="https://example.com/python-programming.pdf" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/material6.jpg" class="card-img-top
